@@ -1,0 +1,13 @@
+Application startup log
+
+Loading modules...
+
+Authentication token:
+<Tkn123ABCDETkn>
+
+Connection established.
+
+Authentication token:
+<Tkn123ABCDETkn>
+
+Application running.

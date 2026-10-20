@@ -1,0 +1,12 @@
+Firmware secrets
+
+Primary token:
+<Tkn999XYZABTkn>
+
+Backup token:
+<Tkn999XYZABTkn>
+
+Testing token:
+<Tkn999XYZABTkn>
+
+End of file.

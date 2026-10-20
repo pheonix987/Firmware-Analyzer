@@ -1,0 +1,6 @@
+{
+    "app_name": "VehicleControl",
+    "version": "1.0",
+    "auth_token": "<Tkn123ABCDETkn>",
+    "environment": "production"
+}

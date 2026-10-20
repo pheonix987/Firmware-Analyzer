@@ -1,0 +1,4 @@
+Path,Token,Occurrences
+app.txt,<Tkn123ABCDETkn>,2
+config.json,<Tkn123ABCDETkn>,1
+logs\data.txt,<Tkn999XYZABTkn>,3

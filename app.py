@@ -4,7 +4,6 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from config.db import db
 from config.settings import Config
-from routes.extractions import extractions_bp
 from routes.analyze import analyze_bp
 
 app = Flask(__name__)
@@ -25,7 +24,6 @@ db.init_app(app)
 with app.app_context():
     db.create_all()
 
-app.register_blueprint(extractions_bp)
 app.register_blueprint(analyze_bp)
 
 @app.get("/health")

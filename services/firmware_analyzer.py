@@ -6,7 +6,7 @@ TOKEN_PATTERN = re.compile(
     r"<Tkn\d{3}[A-Z]{5}Tkn>"
 )
 
-def _analyze_file(file_path: str):
+def analyze_file(file_path: str):
     try:
         with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
             content = f.read()
@@ -35,7 +35,7 @@ def analyze_firmware(
 
     with ThreadPoolExecutor() as executor:
         futures = {
-            executor.submit(_analyze_file, file_path): file_path
+            executor.submit(analyze_file, file_path): file_path
             for file_path in all_files
         }
 

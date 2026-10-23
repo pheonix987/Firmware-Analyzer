@@ -21,7 +21,7 @@ class Config:
 
     DB_NAME = os.getenv(
         "DB_NAME",
-        "archive_db"
+        "firmware_analyzer"
     )
 
     PORT = os.getenv(

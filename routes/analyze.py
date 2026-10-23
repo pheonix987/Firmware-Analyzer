@@ -57,7 +57,7 @@ def post_analysis():
 @analyze_bp.get("/jobs/<job_id>")
 def get_job_status(job_id):
 
-    job = Job.query.get(job_id)
+    job = db.session.get(Job, job_id)
 
     if not job:
         return {

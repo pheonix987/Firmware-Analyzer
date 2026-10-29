@@ -1,0 +1,4 @@
+Docker environment - saving the zipfile in temporary directory in the docker environment
+JWT
+Multiprocessing vs Multithreading
+Semaphores
